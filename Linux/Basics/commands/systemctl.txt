@@ -1,0 +1,15 @@
+systemctl can be used to list all external services that are installed by 
+the user, which usually include all services. Such services run in the
+background without any user interaction.
+These are also called daemons and are identified by the letter d.
+
+
+To list all the serices using systemctl we can use
+	
+	systemctl list-units --type=service
+
+In other cases it is possible that the services do not start due to an 
+error. To see these problems we can use the next tool with journalctl
+
+	journalctl -u ssh.service --no-pager
+

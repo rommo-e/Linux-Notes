@@ -1,0 +1,12 @@
+
+There are three posibilities to run several commands, one after the other.
+These are separated by : 
+
+	°Semicolon (;)
+	°Double ampersand characters (&&)
+	°Pipes (|)
+The differences between them lies in the previous processes 
+treatment and depends on whether the previous process was completed
+succesfully or with errors. The semicolon (;) is a command separator
+and executes the commands by ignoring previous commands results and errors.
+

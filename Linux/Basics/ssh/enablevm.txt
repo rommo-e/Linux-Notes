@@ -1,0 +1,22 @@
+
+	INSTALL	 
+
+	For installing openssh-server on the computer type the 
+	next commands.
+
+	$sudo apt install -y openssh-server
+
+	$sudo systemctl enable ssh
+	
+	$sudo systemctl restart ssh
+
+	Then for enable a connection with HTB first download the VPN key
+	and execute the commands 
+
+	Install openvpn 
+
+	$sudo apt-get install openvpn
+
+	and for connecting for eg. to HTB 
+
+	$sudo openvpn --config academy.vpn

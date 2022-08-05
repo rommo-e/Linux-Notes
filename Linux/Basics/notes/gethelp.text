@@ -1,0 +1,8 @@
+The two more important ways to obtain extra info in the terminal 
+is through the documentation, and using two commands 
+
+-help -> -h to expand the options that can be set along with the command
+
+Also another very useful way to obtain information is using 
+
+man (manual) and the command eg. man ls 

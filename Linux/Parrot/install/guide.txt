@@ -1,0 +1,33 @@
+HARDWARE INSTALLATION 
+
+For a hardware installation use Ventoy or Balena, if it's possible make 
+Ventoy the preferred since it can handle many OS in one usb-medium/dvd
+
+Then modify the BIOS config
+-Modify the secure boot 
+-Make sure EFI is enabled 
+-Advanced boot options and boot from usb 
+
+Then install or make the partition from the live version
+
+
+VIRTUAL BOX INSTALLATION 
+
+It is very similar but the burned medium it's not necessary 
+first from -GENERAL-  make sure the bidirectional option is active so 
+you can share links images and archives from the virtual machine 
+to the hardware machine. Drag and Shared CLipboard
+
+	°In system provide half the RAM and half the CPU (cores) avaliable
+
+	°In system make sure EFI is enabled 
+
+	°Uncheck FLoppy and Network if it's not necessary to use 
+
+	°Hierarchy check Optical and then the Hard Disk 
+	
+	°VMSVGA for better response of the live version 
+
+	°In storage IDE Controller select the iso image downloaded
+
+	°If preferred hide the assistant bar at the end of the options

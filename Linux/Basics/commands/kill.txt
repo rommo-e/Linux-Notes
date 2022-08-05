@@ -1,0 +1,12 @@
+Processes can be controlled using kill, pkill , pgrep and killall. To 
+interact with a process we must send a signal to it.
+We can view all signals with the following command
+
+		kill -l
+
+
+If a program were to freeze , we could force to kill it with the following 
+command 
+
+		kill 9 <PID>
+
