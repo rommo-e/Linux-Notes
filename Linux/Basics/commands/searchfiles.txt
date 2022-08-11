@@ -1,0 +1,34 @@
+	For searching files we have three different 
+	options.
+
+	The first one is which -> this is very useful
+	when we need to find the location of a program
+	for example for Python would be 
+
+	$which python 
+	or for curl 
+	$which curl 
+
+	The next option is find, find list all the 
+	results that satisfy the conditions 
+	for example for finding all the images 
+	would be something like 
+
+	$ find / -type f -name *.JPG
+
+	or a more complex task like finding all the 
+	configuration files made by the root user 
+
+	$ find / -type f -name *.conf -user root -size +20k -newermt 2020-03-03 -exec ls -al {} \; 2>/dev/null 
+
+	IMPORTANT SIDE NOTE 
+
+	2>/dev/null is a STDERR redirection to the 
+	´null device´.This redirection ensures that
+	no errors are displayed on the terminal.
+	This redirection must not be an option to the 
+	´find´ command 
+
+
+
+ 
