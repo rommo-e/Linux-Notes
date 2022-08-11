@@ -1,0 +1,10 @@
+For installing in a hardware machine we would only need an installation 
+medium that contain the ISO. The ISO has to be burned with Balena or Ventoy 
+>>Ventoy is more efficient, it can handle many OS in only a USB, 
+this is a great advantage in terms of resources.
+
+	°Limit the core (CPU's) to max half of the available 
+
+	°Uncheck the Floppy and Network in the boot order and 
+	the heirarchy should be first the Hard Disk and after the Optical
+	°Check that the EFI is checked in the System Motherboard 
