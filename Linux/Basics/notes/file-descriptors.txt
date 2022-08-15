@@ -1,0 +1,5 @@
+A file descriptor (FD) in Unix/Linux 
+is an indicator of connection 
+maintained by the kernel to perform 
+Input/Output (I/O) Operations. In 
+Windows it is called filehandle.
