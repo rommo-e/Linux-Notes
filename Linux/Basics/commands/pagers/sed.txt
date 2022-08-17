@@ -1,0 +1,6 @@
+	In case when you want to replace characters
+	from a line with characters from a line 
+	with characters defined by us the tool 
+	tr is the option
+
+	$cat /etc/passwd | grep -v "false\|nologin" | tr ":" " "
