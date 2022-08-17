@@ -1,0 +1,18 @@
+	There are many different pagers first we have for example the [more] pager
+	which shows all the logs and information about the file and the content 
+	remains in the terminal. Similar to more is less it will show everything 
+	but at the moment of quitting the page the content will not remain in 	
+	the terminal. Other commands that work similar are [tail] & [head] that as 
+	their names say show the first then lines and the last ten lines.
+
+	More examples include the case when we want to [sort] by alphabet or by 
+	number. 
+
+	More often, we will only search for specific results that contain patterns 
+	we have defined. 
+	One of the most used tools for this is grep, which offers many 
+	different features. 
+	Accordingly, we can search for users who have the default shell 
+	"/bin/bash" set as an example.
+
+		$ cat /etc/passwd | grep "/bin/bash"
