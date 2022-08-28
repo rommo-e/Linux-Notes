@@ -1,0 +1,20 @@
+	For creating virtualization in a Macbook Pro with M1 chip 
+	UTM is a great option , install from the app store and then download
+	the live version of the linux version , next thing is to try to 
+	install a barebones Parrot OS version.
+
+	After selecting all the CPU cores RAM memory and storage dedicated to
+	it shut down the machine and delete the USB drive to let know the machine
+	where to boot from.
+
+	After that install tasksel using 
+	
+	$ sudo apt install tasksel 
+
+	and then try 
+
+	$ sudo tasksel install ubuntu-desktop 
+		
+		if this doesn't work then 
+
+	$ sudo tasksel install ubuntu desktop  %without the hyphen 
