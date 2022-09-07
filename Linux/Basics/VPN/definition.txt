@@ -1,0 +1,12 @@
+	A virtual private Network allows us to connect to a private (internal) network and 
+	access hosts and resources as if we were directly connected to the target private network
+	It is a secured communications channel over shared public networks to connect
+	to a private network. 
+
+	When connected to a VPN, data originates from the VPN server rather than our computer
+	and will appear to originate from a public IP address other than our own.
+
+	There are two main types of remote access VPNs : client-based VPN and SSL VPN.
+
+	SSL VPN uses the web browser as the VPN client.
+	
