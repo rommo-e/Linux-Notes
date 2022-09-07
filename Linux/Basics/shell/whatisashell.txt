@@ -1,0 +1,24 @@
+The shell is a program that takes input from the user
+via the keyboard and passes these commands to the operative
+system to perform a specific function. 
+
+Bash is an enganced version of sh. 
+
+The expression "getting a shell" reffers to exploit the 
+target host , and that an access to the shell level is gained. 
+
+A shell may be obtaining by exploitung a web app 
+or networl/service vulnerability or obtaining credentials and 
+logging to the target host remotely. 
+There are three main types of shell connections.
+
+°Reverse shell : Initiates a connection back to a listener 
+
+°Bind shell: "Binds" to a specific port of the target host and waits for a connection from the 
+attack box. 
+
+°Web shell: Runs OS commands via the browser.
+Not interactive or semi-interactive. (i,e., leveraging a file upload 
+vulnerability and uploading a PHP script to 
+run a single command. 
+
