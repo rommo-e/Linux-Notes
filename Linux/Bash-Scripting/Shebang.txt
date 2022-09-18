@@ -1,0 +1,15 @@
+The shebang line is always at the top of each script and always starts 
+with "#!". This line containts the path to specified interpreter.(/bin/bash) 
+with which the script is executed. We can also use Shebang to define other intpertreters like Python, Pearl, and others. 
+
+
+For example for using Python 
+
+python:
+	#!/usr/bin/env python 
+perl:
+	#!usr/bin/env perl 
+
+
+
+
