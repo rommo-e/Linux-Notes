@@ -1,0 +1,6 @@
+	The main difference between programming and scripting is that 
+	we don't need to compile the code to execute the scripting language, as 
+	opposed to programming languages. 
+
+
+	
