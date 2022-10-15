@@ -1,0 +1,21 @@
+In case the selected machine inside virtualbox or other virtualzation software first try to insert the cd image
+
+This process is made when we enter in the preferences 
+If the CD image is not installed then we can choose the option for downloading the image from the  internet. 
+
+After successfully downloading the image select the option to insert this cd inside the virtual machine 
+
+Then open and mount 
+
+Then in the containing folder we can open a terminal right-clicking, access to root privileges 
+
+$sudo su 
+
+Change the privileges of the file for giving it root privileges 
+$chmod 777 VBoxLinuxAdditions.sh
+
+And finally run the command for executing this configurations in the virtual box with the sh option
+
+$sh VBoxLinuxAdditions.sh 
+
+Wait for it to finish and then restart the machine
