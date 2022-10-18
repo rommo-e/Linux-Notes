@@ -1,0 +1,13 @@
+For starting a server in a selected port , usually the port 8080 is the 
+chosen one we have to run the command 
+
+$sudo python3 -m http.server 8080 
+
+Important: when finishing using this server for file transfer or other 
+function always kill the process. 
+In this case for killing the process we would need to run another command 
+
+$pkil -9 -f 'python3 -m http.server 8080'
+
+look out for errors in the chapsticks or quotes in case this doesn't work, 
+also this will allow to run the server in another moment without conflict 
