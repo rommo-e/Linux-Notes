@@ -1,0 +1,38 @@
+For showing dot files and cool icons in the terminal with LSD it is necessary to first install a nerd font in order to be processed in the correct way. 
+ 
+First download the .zip containing .ttf archives from the github repo  which is 
+https://github.com/ryanoasis/nerd-fonts
+
+Once you have found the Hacker or Fira code download the zip. 
+
+After this you have to move this files into your local directory  wether with a root file manager access (open finder, nautilus or dolphin as root), and then move the directory containing such files. 
+
+A common path for the fonts is 
+
+/usr/share/fonts
+
+after that update the cache of the fonts with the command 
+
+`
+$fc-cache -r
+`
+
+And thats it now you should be able to change the font of your terminal or other programs, except for GIMP and LibreOffice these programs have their own way to install fonts.
+
+Now for the cool touch go to the repository of lsd and in this case for my operating system mine is based on debian so the way of installed is to get the last release pkg from the releases page 
+https://github.com/Peltoche/lsd
+
+Ubuntu/Debian based 
+`
+$sudo dpkg -i lsd_0.23.1_amd64.deb #get .deb file from release page# 
+
+#comment# 
+`
+After downloading the package execute the command 
+Finally name an alias in your .bashrc profile or .zshrc profile 
+#For finding the .bashrc file go to your home directory and run the command $ls -la , enter as super user $sudo su and edit the file $nano .bashrc
+at the end of the file 
+
+#Personal cool stuf 
+
+alias ls='lsd'
